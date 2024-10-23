@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Youtube Time Tracker",
+    "version": "1.0",
+    "description": "Track at what time your YouTube video ends",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
