@@ -2,15 +2,10 @@ body {
     width: 220px;
     text-align: center;
     font-family: 'Arial', sans-serif;
-    background-color: #f8f8f8;
-    padding: 20px;
+    background-color: #000000;
+    padding: 3px;
     border-radius: 8px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-h3, h1, h2 {
-    color: #d32f2f;
-    font-weight: 600;
+    box-shadow: 0px 4px 12px rgba(52, 51, 51, 0.063);
 }
 
 button {
@@ -26,35 +21,48 @@ button {
 }
 
 button:hover {
-    background-color: #b71c1c;
+    background-color: #FF0000;
 }
 
 .box {
-    background-color: #fff;
+    background-color: #121212;
     border: 1px solid #d32f2f;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-}
-
-h1 {
-    font-size: 22px;
-}
-
-h2 {
-    font-size: 16px;
-    margin-bottom: 5px;
 }
 
 p {
-    color: #333;
+    color: #ff1b1b;
     font-size: 14px;
     margin: 0;
 }
 
 .video-ends-at {
-    color: #b71c1c;
+    color: #FF0000;
     font-size: 18px;
     margin-top: 20px;
+}
+#yt {
+    color: #ca3232;
+    font-family: Arial, sans-serif; /* YouTube logo font style */
+    font-weight: bold;
+    font-size: 19px; /* Font size similar to YouTube logo */
+}
+#time-calculator {
+    color: #ca3232;
+    font-size: 22px;
+}
+
+#yt:hover, #time-calculator:hover{
+    color: #FF0000;
+}
+
+#error:hover {
+    color: #FF0000;
+}
+
+#video-duration, #playback-speed{
+    color: #e76464;
+    text-decoration: underline;
 }

@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
         // Display the time the video will end in 12-hour format with AM/PM
         document.querySelector('.video-ends-at').innerHTML = 
-        `<u>Your Video Ends At<u><br>${endHours}:${endMinutes}:${endSeconds} ${ampm}`;
+        `Your Video Ends At<br>${endHours}:${endMinutes}:${endSeconds} ${ampm}`;
     }
 
 
